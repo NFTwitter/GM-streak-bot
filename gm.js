@@ -1,4 +1,4 @@
-console.log("SNES Soundtracks booting up");
+console.log("Gm bot booting up");
 
 const twitterUsername = '@GMstreak';
 
@@ -79,3 +79,5 @@ function pressStart(tweet) {
       }
     };
   }
+
+  pressStart();
