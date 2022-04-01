@@ -1,0 +1,28 @@
+{
+  "name": "gm-streak-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gm.js",
+  "scripts": {
+    "test": "gm.js",
+    "start": "node ./gm.js",
+    "develop": "NODE_ENV=develop node gm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NFTwitter/GM-streak-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NFTwitter/GM-streak-bot/issues"
+  },
+  "homepage": "https://github.com/NFTwitter/GM-streak-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node": "^17.7.2",
+    "node-schedule": "^2.1.0",
+    "twit": "^2.2.11"
+  }
+}
